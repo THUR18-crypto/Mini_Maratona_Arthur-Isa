@@ -29,4 +29,6 @@ function solucao(n) {
             vetor[i] = "FizzBuzz";
         }
     }
+
+    alert(vetor);
 }
