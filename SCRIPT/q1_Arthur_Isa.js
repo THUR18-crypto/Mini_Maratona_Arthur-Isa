@@ -7,7 +7,7 @@
 function solucao() {
     let vetor = [];
 
-    let n = parseInt(document.getElementById("nText"));
+    let n = parseInt(document.getElementById("nText").value);
 
     for(i=1; i<= n; i++){
         vetor.push(i);
