@@ -1,7 +1,3 @@
-let vetor = [];
-
-let n = parseInt(getElementById("nText"));
-
 /*function executar() {
     let valor = document.getElementById("campo").value;
     // processar...
@@ -11,6 +7,10 @@ let n = parseInt(getElementById("nText"));
 botao1.addEventListener("click", solucao);
 
 function solucao(n) {
+    let vetor = [];
+
+    let n = parseInt(getElementById("nText"));
+
     for(i=1; i<= n; i++){
         vetor.push(i);
     }
