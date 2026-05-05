@@ -8,6 +8,8 @@ let n = parseInt(getElementById("nText"));
     document.getElementById("saida").innerHTML = resultado;
 }*/
 
+botao1.addEventListener("click", solucao);
+
 function solucao(n) {
     for(i=1; i<= n; i++){
         vetor.push(i);
