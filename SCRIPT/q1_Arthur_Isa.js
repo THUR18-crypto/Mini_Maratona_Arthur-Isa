@@ -9,7 +9,7 @@ botao1.addEventListener("click", solucao);
 function solucao(n) {
     let vetor = [];
 
-    n = parseInt(getElementById("nText"));
+    n = parseInt(document.getElementById("nText"));
 
     for(i=1; i<= n; i++){
         vetor.push(i);
