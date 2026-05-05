@@ -28,5 +28,5 @@ function solucao(n) {
         } 
     }
 
-    alert(vetor);
+    alert(`Resposta: ${vetor}`);
 }
