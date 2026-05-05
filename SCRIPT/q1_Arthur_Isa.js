@@ -4,8 +4,6 @@
     document.getElementById("saida").innerHTML = resultado;
 }*/
 
-botao1.addEventListener("click", solucao);
-
 function solucao(n) {
     let vetor = [];
 
