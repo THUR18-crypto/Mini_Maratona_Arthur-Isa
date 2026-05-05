@@ -16,7 +16,10 @@ function solucao(n) {
     }
 
     for(i=0; i<n; i++){
-        if(vetor[i] % 3 == 0){
+        if(vetor[i] % 3 == 0 && vetor[i] % 5 == 0){
+            vetor[i] = "FizzBuzz";
+        }
+        else if(vetor[i] % 3 == 0){
            vetor[i] = "Fizz"; 
         } 
         else if(vetor[i] % 5 == 0){
@@ -24,10 +27,7 @@ function solucao(n) {
         } 
         else if(vetor[i] % 7 == 0){
             vetor[i] = "Boom";
-        }
-        else if(vetor[i] % 3 == 0 && vetor[i] % 5 == 0){
-            vetor[i] = "FizzBuzz";
-        }
+        } 
     }
 
     alert(vetor);
