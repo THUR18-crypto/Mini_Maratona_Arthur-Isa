@@ -4,10 +4,10 @@
     document.getElementById("saida").innerHTML = resultado;
 }*/
 
-function solucao(n) {
+function solucao() {
     let vetor = [];
 
-    n = parseInt(document.getElementById("nText"));
+    let n = parseInt(document.getElementById("nText"));
 
     for(i=1; i<= n; i++){
         vetor.push(i);
